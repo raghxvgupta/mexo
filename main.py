@@ -1295,12 +1295,15 @@ def create_cloak_page(slug):
     except Exception as e:
         return None, str(e)
 
-# Valid offer codes (22 total, alphabetical)
+# Valid offer codes (33 total, alphabetical) — keep in sync with the cloaker's
+# OFFERS table in geofiltering/index.js. Includes the tsla* campaign family
+# and aryanfc/oil/onlyfans/gravypass/pcp.
 ALLOWED_OFFERS = [
-    "amazon", "apple", "aritzia", "auto", "bizzop", "cash", "coinbase", "cpi",
-    "doordash", "freecash", "playful", "plt", "shein", "starbucks",
-    "swagbucks", "testerup", "teststar", "ttshop", "venmo", "wellsfargo",
-    "zara", "zelle"
+    "amazon", "apple", "aritzia", "aryanfc", "auto", "bizzop", "cash",
+    "coinbase", "cpi", "doordash", "freecash", "gravypass", "oil",
+    "onlyfans", "pcp", "playful", "plt", "shein", "starbucks", "swagbucks",
+    "testerup", "teststar", "tslaapple", "tslafc", "tslamabfc", "tslashein",
+    "tslatapfc", "tslatp", "ttshop", "venmo", "wellsfargo", "zara", "zelle"
 ]
 
 intents = discord.Intents.default()
