@@ -1301,7 +1301,7 @@ def create_cloak_page(slug):
 ALLOWED_OFFERS = [
     "amazon", "apple", "aritzia", "aryanfc", "auto", "bizzop", "cash",
     "coinbase", "cpi", "doordash", "freecash", "gravypass", "oil",
-    "onlyfans", "pcp", "playful", "plt", "shein", "starbucks", "swagbucks",
+    "onlyfans", "pcp", "playful", "plt", "sephora", "shein", "starbucks", "swagbucks",
     "testerup", "teststar", "tslaapple", "tslafc", "tslamabfc", "tslashein",
     "tslatapfc", "tslatp", "ttshop", "venmo", "wellsfargo", "zara", "zelle"
 ]
